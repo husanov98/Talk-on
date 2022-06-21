@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "Djava.net.preferIPv4Stack=true",
+      "type": "java.lang.String",
+      "description": "Description for Djava.net.preferIPv4Stack=true."
+  }
+] }

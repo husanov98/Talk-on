@@ -1,0 +1,54 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/talk
+    username: postgres
+    password: root123
+
+
+  jpa:
+    show-sql: true
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: update
+    properties:
+
+      hibernate:
+        format_sql: true
+  sql:
+    init:
+#      mode: always
+      mode: never
+      platform: postgres
+server:
+  port: 9090
+
+#api:
+#  info:
+#    title: TalkOnCopy
+#    description: Learning English
+#    version: 1.0
+#    terms-of-service: https://muhammad.mh.uz
+#    contact-name: mh.uz
+#    contact-email: muhammadhusanov98@gmail.com
+#    contact-url: https://mh.uz
+#    license-name: Apache 2.0
+#    license-url: https://www.apache.org/licenses/LICENSE-2.0.html
+
+#springdoc:
+#  swagger-ui:
+#    path: /ui
+# api-docs:
+#     path: /doc
+#
+service:
+  prop:
+    protocol: http
+    ip: localhost
+    url: boom.uz
+    port: 9090
+# app:
+#   base:
+#     api: /api
+#   version: /v1
+
